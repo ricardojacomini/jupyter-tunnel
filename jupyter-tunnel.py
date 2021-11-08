@@ -76,7 +76,7 @@ def run_remote_jupyter(host, ssh_port, directory, user, tunnel_port):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--host', default='myhost')
+    parser.add_argument('--host', default='login.rockfish.jhu.edu')
     parser.add_argument('--dir', default=os.getcwd())
     parser.add_argument('--user', default=None)
     parser.add_argument('--default-tunnel-port', type=int, default=8888)
