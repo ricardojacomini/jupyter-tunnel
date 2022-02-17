@@ -2,7 +2,7 @@
 A script to connect to remote jupyter server using ssh tunnel.
 
 ```
-pip install git@github.com:ricardojacomini/jupyter-tunnel.git --upgrade --user
+wget https://raw.githubusercontent.com/ricardojacomini/jupyter-tunnel/master/jupyter-tunnel.py
 ```
 
 When called, jupyter-tunnel:
