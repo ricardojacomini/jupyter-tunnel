@@ -1,6 +1,10 @@
 # jupyter-tunnel
 A script to connect to remote jupyter server using ssh tunnel.
 
+```
+pip install git@github.com:ricardojacomini/jupyter-tunnel.git --upgrade --user
+```
+
 When called, jupyter-tunnel:
 + discovers available ports and makes a ssh tunnel to the remote host
 + calls jupyter lab on the remote host
