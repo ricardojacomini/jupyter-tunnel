@@ -2,7 +2,8 @@
 A script to connect to remote jupyter server using ssh tunnel.
 
 ```
- curl -o ~/.local/bin/jupyter-tunnel.py https://raw.githubusercontent.com/apuapaquola/jupyter-tunnel/master/jupyter-tunnel.py
+ $ curl -o ~/.local/bin/jupyter-tunnel.py https://raw.githubusercontent.com/apuapaquola/jupyter-tunnel/master/jupyter-tunnel.py
+ $ chmod +x ~/.local/bin/jupyter-tunnel.py
 ```
 
 When called, jupyter-tunnel:
